@@ -1,0 +1,40 @@
+html,body {user-select: none;}
+*{margin: 0;padding: 0;box-sizing: border-box; /*border: 1px solid red;*/}
+body>div#canner{position: relative;width: 100%;background-color: rgb(43,43,43) ;padding-bottom:3.43%;}
+body>div#canner>img#logopicture{position: absolute;top:29.16%;width: 7.14%;height: 49.16%;left: 7%;}
+body>div#canner>div#chose{position: absolute;left: 53.6%;top: 27.08%;}
+body>div#canner>ul#chose>span{}
+body>div#canner>div#chose>span>a{color: rgb(127,127,127);user-select: none;text-decoration:none;font-size: 1rem;margin-right: 1.5rem;}
+body>div#canner>div#chose>span>a#last{margin-right: 0px;}
+body>div#canner>div#chose>span>a:hover{color: #ffffff;}
+body>div#banner_div{position:relative;width: 100%;padding-bottom: 30%;}
+body>div#banner_div>img#banner_pic{position:absolute;width: 100%;height: 100%;}
+body>div#banner_div>div#point{position:absolute;width: 8%;padding-bottom: 1.79%;border-radius:100px;left: 46%;top:90%;background-color: rgb(23,22,85);}
+body>div#banner_div>div#point>div#active{width: 30%;border-radius:20%;}
+body>div#banner_div>div#point>div.p0{position:absolute;background-color:rgb(220,220,229);width: 10%;height: 45.5%;border-radius:100%;top:30%;margin-left: 15%;
+    transition:width 500ms;
+    -webkit-transition:width 500ms;
+}
+body>div#banner_div>div#point>div.p1{position:absolute;background-color:rgb(220,220,229);width: 10%;height: 45.5%;border-radius:100%;top:30%;margin-left: 35%;
+    transition:width 500ms;
+    -webkit-transition:width 500ms;
+}
+body>div#banner_div>div#point>div.p2{position:absolute;background-color:rgb(220,220,229);width: 10%;height: 45.5%;border-radius:100%;top:30%;margin-left: 55%;
+    transition:width 500ms;
+    -webkit-transition:width 500ms;
+}
+body>div#banner_div>div#point>div.p3{position:absolute;background-color:rgb(220,220,229);width: 10%;height: 45.5%;border-radius:100%;top:30%;margin-left: 75%;
+    transition:width 500ms;
+    -webkit-transition:width 500ms;
+}
+body>div.main{position
+:relative;width:100%;padding-bottom:52.6%;}
+body>div.main>img#background1{position:absolute;width: 100%;z-index: 2;}
+body>div.main>img#background2{position:absolute;width: 100%;z-index: 1;margin-top: 1%;}
+body>div.main>img#tp0{position: absolute;width:22%; z-index: 3;left:38.5%;top:7.5%;}
+body>div.main>span#pain{position:absolute;z-index: 4;width:16.1%;font-size:1.5rem;color: rgb(96,231,239);font-family: PingFangSC-Regular;font-weight: bold;left: 41.5%;top:7%;}
+body>div.main>div.pp1{position:absolute;width:13%;height:6.2%;font-size: 1.125rem;line-height:2.7rem;z-index:3;top:18.8%;left:32.7%;text-align: center;color:rgb(157,157,179);border:0.1rem solid rgb(105,203,223);border-radius:0.4rem;}
+body>div.main>div.pp2{position:absolute;width:13%;height:6.2%;font-size: 1.125rem;line-height:2.7rem;z-index:3;top:18.8%;left:53.21%;text-align: center;color:rgb(157,157,179);border:0.1rem solid rgb(105,203,223);border-radius:0.2rem;}
+body>div.main>div#d_active{background-image: url('../img/kuang.png');color: white;background-size:100%;border: none;border-radius:0;}
+
+
