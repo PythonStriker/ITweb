@@ -2,7 +2,6 @@
 <html lang="en">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<!--    <link rel="stylesheet" type="text/css" href="./css/reset.css"　>-->
     <script src="./js/index.js"></script>
     <link rel="stylesheet" type="text/css" href="./css/index.css">
     <title>IT兄弟会</title>
@@ -32,10 +31,84 @@
     <img id="background1" src="./img/background1.png">
     <img id="background2" src="./img/background2.png">
     <img id="tp0" src="./img/Currency/标题背景-绿色.png">
-    <span id="pain" >IT行业就业/职场痛点</span>
-    <div class="pp1" id="d_active">企业人才需求痛点</div>
-    <div class="pp2">人才供应痛点</div>
-    <div class="kuang"></div>
+    <span id="pain_span" >IT行业就业/职场痛点</span>
+    <div class="pp1" id="d_active"><div class="biankuang" id="pp11"></div>企业人才需求痛点</div>
+    <div class="pp2"><div class="biankuang" id="pp12"></div>人才供应痛点</div>
+    <div class="kuang">
+        <p>企业从培训机构招到的人不能真正上手做事</p>
+        <span>企业需求是能做事的人，而不是空有知识，动手能力为0的新人。也就是我们常说的，思想的巨人，行动的矮子。试想你是企业老板你愿意招一群只会说，不会做的程序员吗？答案是显而易见的。</span>
+        <div class="pain_div" id="costs" style="border-top: 0.31rem solid RGB(83, 211, 205)">
+            <p class="backtittle" id="backtittle0" style="display: none">新人培养成本高</p>
+            <p class="backenglish" id="backenglish0" style="display: none">Newcomer training costs are high</p>
+            <p class="backgang" id="backgang0" style="display: none"></p>
+            <p class="backcontent" id="backcontent0" style="display: none">在IT行业，招一个刚从众多培训机构刚出来的新人，
+                纯招聘开销是xxx。另外不能做事的新人进入企业
+                后需要培训3个月，一个月培训费用是多少，总培
+                训费用共多少，额外加上新人的这段时间的工资照
+                发费用大概多少，这都是最直接最明显的成本。还
+                有的培养不出来还得放弃，淘汰出局造成的浪费，
+                抑或是为了冗余多招几个进来培养，可见招新人的
+                公司的成本真的是高得离谱。
+                </p>
+            <div class="kuang_img" id="img0"><img src="./img/新人培养成本高.jpg"></div>
+            <div class="pain_div_title" id="tittle0">新人培养成本高</div>
+            <div class="pain_div_english" id="english0">Newcomer training costs are high</div>
+            <div class="pain_div_buttom" id="buttom0">了解详情</div>
+        </div>
+        <div class="pain_div" id="risky" style="border-top: 0.31rem solid RGB(83, 211, 205)">
+            <p class="backtittle" id="backtittle1"style="display: none">能力定级困难项目风险大</p>
+            <p class="backenglish" id="backenglish1" style="display: none">Ability to grade difficult projects is risky</p>
+            <p class="backgang" id="backgang1" style="display: none"></p>
+            <p class="backcontent" id="backcontent1" style="display: none">毕竟真实项目和模拟项目区别很大，应聘者拿模
+                拟项目说是工作项目经验，进入公司做项目开发，
+                由于经验不足导致产品或项目不能交付，这种人
+                为因素带来的风险导致公司直接的亏损。
+            </p>
+            <div class="kuang_img" id="img1"><img src="./img/项目风险大.jpg"></div>
+            <div class="pain_div_title" id="tittle1">能力定级困难项目风险大</div>
+            <div class="pain_div_english" id="english1">Ability to grade difficult projects is risky</div>
+            <div class="pain_div_buttom" id="buttom1">了解详情</div>
+        </div>
+        <div class="pain_div" id="rate" style="border-top: 0.31rem solid RGB(83, 211, 205)">
+            <p class="backtittle" id="backtittle2" style="display: none">人员流失率高</p>
+            <p class="backenglish" id="backenglish2" style="display: none">High turnover rate</p>
+            <p class="backgang" id="backgang2" style="display: none"></p>
+            <p class="backcontent" id="backcontent2" style="display: none">毕竟真实项目和模拟项目区别很大，就算骗过了面
+                试官，在入职后的实际能力也瞒不住，导致学员没
+                过三个月试用期，就被淘汰出局。辛辛苦苦培养起
+                来的新人，一旦被培养起来，工作不久后，就被其
+                他企业挖走了，导致初级开发人员流失率高，感觉
+                像是做了其他企业的嫁衣。</p>
+            <div class="kuang_img" id="img2"><img src="./img/人员流失率高.jpg"></div>
+            <div class="pain_div_title" id="tittle2">人员流失率高</div>
+            <div class="pain_div_english" id=“english2”>High turnover rate</div>
+            <div class="pain_div_buttom" id="buttom2">了解详情</div>
+        </div>
+        <div class="side_div" id="side_div1">
+            <div class="side_up" id="side_up1"><p id="up1">每个人都有最适合的学习节奏，众多培训机构满足不了学员</p></div>
+            <div class="side_down" id="side_down1"><p id="down1">每个人都有自己最适合的学习节奏，而众多培训机构都是一个几十人的大班
+                课，不管你学习进度，都跟着上大课。学得快的听着没趣上课睡觉，浪费大
+                好光影，学得慢的跟不上大课节奏，在里面被拖死，反而没了自信。</p></div>
+            <div class="delta" id="delta1"></div>
+        </div>
+        <div class="center_div" id="center_div1">
+            <div class="center_up"><p id="up2">没有真实项目经验，心虚不好找工作</p></div>
+            <div class="center_down"><p id="down2">现在众多培训机构毕业的学员由于没有真实的项目经验，只做过讲师布
+                置的模拟题（这个不能算是项目经验，完全没有可比性，后面会再做仔
+                细分析），找工作时心虚，害怕自己被面试官问出破绽来，面试时没有
+                自信，也容易说谎，面试很容易就失败，毕竟真实项目和模拟项目区别
+                很大，在人事面前可以糊弄过去，但在IT职场经验丰富的技术经理面前
+                就是破绽百出。</p></div>
+            <div class="delta" id="delta2"></div>
+        </div>
+        <div class="side_div" id="side_div2">
+            <div class="side_up" id="side_up2"><p id="up3">没有学习氛围，坚持不下来</p></div>
+            <div class="side_down" id="side_down2"><p id="down3">学习本来就是一个很苦的事情，书山有路勤为径，学海无涯苦作舟就是最好的诠
+                释。编程的学习也是很辛苦的事情，如果再缺少学习氛围，就很容易松懈下来，
+                导致自己为自己的偷懒找借口。</p></div>
+            <div class="delta" id="delta3"></div>
+        </div>
+    </div>
 </div>
 </body>
     <script src="./js/lastload.js"></script>

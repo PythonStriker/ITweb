@@ -32,9 +32,48 @@ body>div.main{position
 body>div.main>img#background1{position:absolute;width: 100%;z-index: 2;}
 body>div.main>img#background2{position:absolute;width: 100%;z-index: 1;margin-top: 1%;}
 body>div.main>img#tp0{position: absolute;width:22%; z-index: 3;left:38.5%;top:7.5%;}
-body>div.main>span#pain{position:absolute;z-index: 4;width:16.1%;font-size:1.5rem;color: rgb(96,231,239);font-family: PingFangSC-Regular;font-weight: bold;left: 41.5%;top:7%;}
-body>div.main>div.pp1{position:absolute;width:13%;height:6.2%;font-size: 1.125rem;line-height:2.7rem;z-index:3;top:18.8%;left:32.7%;text-align: center;color:rgb(157,157,179);border:0.1rem solid rgb(105,203,223);border-radius:0.2rem;}
-body>div.main>div.pp2{position:absolute;width:13%;height:6.2%;font-size: 1.125rem;line-height:2.7rem;z-index:3;top:18.8%;left:53.21%;text-align: center;color:rgb(157,157,179);border:0.1rem solid rgb(105,203,223);border-radius:0.2rem;}
-body>div.main>div#d_active{background-image: url('../img/kuang.png');color: white;background-size:100%;border: none;border-radius:0;line-height:2.7rem;}
+body>div.main>span#pain_span{position:absolute;z-index: 4;width:16.1%;font-size:1.5rem;color: rgb(96,231,239);font-family: PingFangSC-Regular;font-weight: bold;left: 41.5%;top:7%;}
+body>div.main>div.pp1{box-sizing:border-box;position:absolute;width:13%;height:6%;font-size: 1.125rem;line-height:2.7rem;z-index:3;top:18.8%;left:32.7%;text-align: center;color:rgb(157,157,179);}
+body>div.main>div.pp2{box-sizing:border-box;position:absolute;width:13%;height:6%;font-size: 1.125rem;line-height:2.7rem;z-index:3;top:18.8%;left:53.21%;;text-align: center;color:rgb(157,157,179);}
+body>div.main>div>div.biankuang{z-index:0;position: absolute;width: 100%;height:100%;border:0.1rem solid rgb(105,203,223);border-radius:0.2rem; }
+body>div.main>div#d_active{box-sizing:border-box;background-image: url('../img/kuang.png');background-repeat:no-repeat;color: white;background-size:100%;line-height:2.7rem;}
 body>div.main>div.kuang{position: absolute;width:62.5%;height: 58%;border:0.01rem solid rgb(41, 92, 134);z-index: 3;left: 18.3%;top:30%;}
+body>div.main>div.kuang>p{position: absolute;top:3%;width:100%;left:2.87%;color: white;font-size: 1rem;}
+body>div.main>div.kuang>span{position: absolute;width:95%;left:2.87%;top:11%;color: white;font-size: 0.7rem;}
+body>div.main>div.kuang>div.pain_div{position:absolute;float:left;background-color: white;width:28.75%;height:63.79%;top:27.58%;}
+body>div.main>div.kuang>div.pain_div>div.kuang_img{position:absolute;height:40.27%;width:42%;top:9.72%;left:27.78%;border:0.625rem solid rgb(229, 229,229);border-radius: 100px;}
+body>div.main>div.kuang>div.pain_div>div.kuang_img:hover{position:absolute;height:40.27%;width:42%;top:9.72%;left:27.78%;border:0.625rem solid RGB(83, 211, 206);border-radius: 100px;}
+body>div.main>div.kuang>div.pain_div>div.kuang_img>img{position: absolute;width: 48.28%;height: 48.28%;top:21%;left: 26%;}
+body>div.main>div.kuang>div.pain_div>div.pain_div_title{position: absolute;font-weight:bold;width: 100%;text-align:center;font-size:1rem;top:59%;}
+body>div.main>div.kuang>div.pain_div>div.pain_div_english{position: absolute;width: 100%;text-align:center;font-size:0.65rem;top:68%;}
+body>div.main>div.kuang>div.pain_div>div.pain_div_buttom{position: absolute;left:31%;top:83%;font-size:0.875rem;text-align:center;background-color: rgb(83, 211, 205);width: 36.23%;height: 8.3%;color:white;border-radius: 6px}
+body>div.main>div.kuang>div.pain_div>p.backtittle{position:absolute;top:8%;width: 100%;font-size:1rem;text-align: center; }
+body>div.main>div.kuang>div.pain_div>p.backenglish{position:absolute;top:16%;width: 100%;font-size:0.65rem;text-align: center;}
+body>div.main>div.kuang>div.pain_div>p.backgang{position:absolute;top:23%;left:40%;width:20%;height:1%;background-color: #dbdbdb;}
+body>div.main>div.kuang>div.pain_div>p.backcontent{position:absolute;top:30%;left:5%;width: 90%;font-size:0.7rem;}
+body>div.main>div.kuang>div.side_div{position:absolute;float:left;background-color: white;width:28.75%;height:60%;top:25.58%;display: none;}
+body>div.main>div.kuang>div.center_div{position:absolute;float:left;background-color: white;width:28.75%;height:70%;top:20%;display: none;}
+body>div.main>div.kuang>div.side_div>div.side_up{position: absolute;width: 100%;height: 35%;}
+body>div.main>div.kuang>div.side_div>div.side_down{position: absolute;width: 100%;height: 65%;top:35%;}
+body>div.main>div.kuang>div.side_div>div#side_up1{background-color:RGB(44, 100, 219); }
+body>div.main>div.kuang>div.side_div>div#side_up2{background-color:RGB(125, 47, 255);}
+body>div.main>div.kuang>div.side_div>div#side_down1{background-color:RGB(31, 50, 182); }
+body>div.main>div.kuang>div.side_div>div#side_down2{background-color: RGB(73, 29, 183);}
+body>div.main>div.kuang>div.center_div>div.center_up{position: absolute;width: 100%;height: 35%;background-color: RGB(83, 211, 203);}
+body>div.main>div.kuang>div.center_div>div.center_down{position: absolute;width: 100%;height: 65%;top:35%;background-color:RGB(49, 133, 128);}
+body>div.main>div.kuang>div>div.delta{position: absolute;width:0;height: 0;border-style:solid;border-width: 0 2.3rem 2.3rem 0;border-color:  transparent #ffffff transparent transparent; left: 85.4%;}
+body>div.main>div.kuang>div>div.side_up>p#up1{position: absolute;width:80%;font-size: 0.875rem;color: white;left:15%;top: 25%;font-weight: bold}
+body>div.main>div.kuang>div>div.center_up>p#up2{position: absolute;width:55%;font-size: 0.875rem;color: white;left:25%;top: 25%;font-weight: bold}
+body>div.main>div.kuang>div>div.side_up>p#up3{position: absolute;width:80%;font-size: 0.875rem;color: white;left:15%;top:38%;font-weight: bold}
+body>div.main>div.kuang>div>div.side_down>p#down1{position: absolute;width:80%;font-size: 0.7rem;color: white;left:13%;top: 17%;}
+body>div.main>div.kuang>div>div.center_down>p#down2{position: absolute;width:78%;font-size: 0.7rem;color: white;left:13%;top: 10%;}
+body>div.main>div.kuang>div>div.side_down>p#down3{position: absolute;width:80%;font-size: 0.7rem;color: white;left:13%;top: 17%;}
+body>div.main>div.kuang>div#side_div1{left:2.87%;}
+body>div.main>div.kuang>div#center_div1{left:35.5%;}
+body>div.main>div.kuang>div#side_div2{left:67.83%;}
+
+body>div.main>div.kuang>div#costs{left: 2.87%;}
+body>div.main>div.kuang>div#risky{left: 35.5%;}
+body>div.main>div.kuang>div#rate{left: 67.83%;}
+
 
