@@ -4,9 +4,15 @@
     <list default="true" id="a0d4cf19-a107-41c2-a63d-52f007551195" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/lastload.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/lastload.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/标题背景-蓝色.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/素材/IT/__MACOSX/素材/._.DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/素材/IT/__MACOSX/素材/0_通用/._.DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/素材/IT/__MACOSX/素材/0_通用/._logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/素材/IT/__MACOSX/素材/0_通用/._微信.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/素材/IT/__MACOSX/素材/0_通用/._微博.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/素材/IT/__MACOSX/素材/0_通用/._按钮背景.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/素材/IT/__MACOSX/素材/0_通用/._标题背景-绿色.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/素材/IT/__MACOSX/素材/0_通用/._标题背景-蓝色.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/素材/IT/__MACOSX/素材/1_轮播图/._banner.jpg" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -67,7 +73,7 @@
       <updated>1569984154910</updated>
       <workItem from="1569984164417" duration="20574000" />
       <workItem from="1570018787791" duration="32985000" />
-      <workItem from="1570435176514" duration="54882000" />
+      <workItem from="1570435176514" duration="55682000" />
     </task>
     <servers />
   </component>
