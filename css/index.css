@@ -80,13 +80,50 @@ body>div.pobing{position: relative;width:100%;padding-bottom: 101.56%;}
 body>div.pobing>img#biaoti1{position: absolute;top:3%;left:34%;width:32%;}
 body>div.pobing>p#pobz{position: absolute;top:3%;left: 39%;font-size: 1.5rem;font-weight: bold;color: RGB(14, 7, 72);}
 body>div.pobing>p#moshi{position: absolute;top:5.5%;left: 42.5%;font-size: 1.5rem;font-weight: bold;color: RGB(14, 7, 72);}
-body>div.pobing>img#duobianxing{position: absolute;left: 76.5%;top: 5%;}
+body>div.pobing>img#duobianxing{position: absolute;left: 76%;top: 5.5%;}
 body>div.pobing>div.talk_pain{position: absolute;width: 62.5%;height:23.85%;left: 18.75%;top:10.77%;}
-body>div.pobing>div.talk_pain>div#talk{position: absolute;width:46.58%;height: 100%;background-color: white;border-radius: 10px 0px 0px 10px;box-shadow:1rem 0 1rem rgb(240,240,240);z-index: 1;border: 1px solid black;}/* 左上，右上，右下，左下*/
-body>div.pobing>div.talk_pain>div#pain{position: absolute;width:53.42%;height: 100%;background-color: RGB(18, 15, 78);z-index: 2;left:46.58%;}
+body>div.pobing>div.talk_pain>div#talk{position: absolute;width:46.58%;height: 100%;background-color: white;border-radius: 0.625rem 0rem 0rem 0.625rem;box-shadow:1rem 0 1rem rgb(240,240,240);z-index: 1;border: 1px solid black;}/* 左上，右上，右下，左下*/
 body>div.pobing>div.talk_pain>div#talk>p{position: absolute;width:75%;color:RGB(16,13,48);font-size: 0.9rem;border-bottom: 0.1rem solid RGB(18, 15, 78);font-weight: bold;left: 12.34%;top:9.87%;}
 body>div.pobing>div.talk_pain>div#talk>p#p2{width:69%;top: 17%;}
 body>div.pobing>div.talk_pain>div#talk>div{position: absolute;}
-body>div.pobing>div.talk_pain>div#talk>img{position: absolute;}
-body>div.pobing>div.talk_pain>div#talk>img#tou1{width: 8.59%;}
-body>div.pobing>div.talk_pain>div#talk>img#tou2{width: 8.59%;}
+body>div.pobing>div.talk_pain>div#talk>img{position: absolute;width: 8.59%;}
+body>div.pobing>div.talk_pain>div#talk>img#tou1{top: 46.35%;left: 5.9%}
+body>div.pobing>div.talk_pain>div#talk>img#tou2{top:79.18%;left:86.4%;}
+body>div.pobing>div.talk_pain>div#talk>div.talk{position: absolute;width: 46.87%;height: 25.1%;}
+body>div.pobing>div.talk_pain>div#talk>div#talk1{border-radius: 5rem 5rem 5rem 0rem;left: 18.43%;top:32.19%;background-color: rgb(16,23,81);}
+body>div.pobing>div.talk_pain>div#talk>div#talk1>p{top:25%;position: absolute;left: 17.47%;width:61.45%;color: white;font-size: 0.7rem;}
+body>div.pobing>div.talk_pain>div#talk>div#talk1>img#shan1{position: absolute;width: 22.52%;top: 50%;left: 50%;}
+body>div.pobing>div.talk_pain>div#talk>div#talk2{border-radius: 5rem 5rem 0rem 5rem;left: 36.31%;top:64.8%;background-color: RGB(230,230,230);}
+body>div.pobing>div.talk_pain>div#talk>div#talk2>p{top:25%;position: absolute;left: 17.47%;width:61.45%;color:rgb(16,23,81);font-size: 0.7rem;}
+body>div.pobing>div.talk_pain>div#talk>div#talk2>img#xia22{position: absolute;width: 22.52%;top: 50%;left: 45%;}
+body>div.pobing>div.talk_pain>div#pain{position: absolute;width:53.42%;height: 100%;background-color: RGB(18, 15, 78);z-index: 2;left:46.58%;border-radius: 0rem 0.625rem 0.625rem 0rem;}
+body>div.pobing>div.talk_pain>div#pain>p{position:absolute;color: RGB(125, 125, 127);font-size: 1rem;top:9.22%;left: 11.35%;}
+body>div.pobing>div.talk_pain>div#pain>ul{float:left;z-index: 4;width: 83%;list-style-type: disc;margin-left: 11.35%;margin-top:13%; }
+body>div.pobing>div.talk_pain>div#pain>ul>li{color: white;font-size: 0.5rem;line-height: 1rem;}
+body>div.pobing>div.talk_pain>div#pain>a>div#ljtd{position: absolute;top:75%;left:11.35%;width: 49.77%;height: 7.51%;text-align: center;border: 0.1rem solid RGB(83, 211, 205);border-radius: 5rem;color: RGB(83, 211, 205);font-size: 0.625rem;line-height: 1.5rem;}
+body>div.pobing>div.talk_pain>div#pain>a>div#lkbm{position: absolute;top:85%;left:11.35%;width: 49.77%;height: 7.51%;text-align: center;border: 0.1rem solid RGB(83, 211, 205);border-radius: 5rem;color: RGB(83, 211, 205);font-size: 0.625rem;line-height: 1.5rem;}
+body>div.pobing>div.talk_pain>div#pain>a>div#ljtd:hover{background-color: RGB(83, 211, 205);color: white;}
+body>div.pobing>div.talk_pain>div#pain>a>div#lkbm:hover{background-color: RGB(83, 211, 205);color: white;}
+body>div.pobing>img#bolang{position:absolute;width: 100%;top:23.5%;}
+body>div.pobing>p#fuwu{position: absolute;top:38%;left: 39%;font-size: 1.5rem;font-weight: bold;color: RGB(14, 7, 72);}
+body>div.pobing>p#duibi{position: absolute;top:40.5%;left: 47%;font-size: 1.5rem;font-weight: bold;color: RGB(14, 7, 72);}
+body>div.pobing>img#biaoti2{position: absolute;top:38%;left:34.5%;width:31%;}
+body>div.pobing>img#vs{position: absolute;width: 8%;top: 50%;left: 46%;z-index: 1;}
+body>div.pobing>img#juxing{position: absolute;width: 100%;top: 45%;z-index: 0;height: 55%;}
+body>div.pobing>img#dianzhen{position: absolute;width: 10.68%;top:41%;left: 17%;}
+body>div.pobing>div#vsleft{position: absolute;width:28.18%;height: 50.1%;background-color: white;top:45%;left: 19%;border-radius: 0rem 0rem 1rem 1rem;}
+body>div.pobing>div#vsleft>div{width: 100%;}
+body>div.pobing>div#vsleft>div.ji{width:85.4%;margin-left:6.84%;}
+body>div.pobing>div#vsleft>div.ou{width:85.4%;background-color:RGB(248, 248, 248);margin-left:6.84%;}
+body>div.pobing>div#vsleft>div#ji1{width:85.4%;margin-left:6.84%;margin-top: 11%;}
+body>div.pobing>div#vsleft>div#ltittle{position: absolute;top:3%;font-weight:bold;font-size: 1rem;text-align: center;width:100%;color: RGB(16, 13, 50);}
+body>div.pobing>div#vsright>div#rtittle{line-height: 4rem;font-weight:bold;font-size: 1rem;height: 7.8%;width: 100%;background-color: RGB(44, 100, 219);color: white;text-align: center;}
+body>div.pobing>div#vsright>div#dian{position: absolute;left:46%;background-color: RGB(44, 100, 219);border-radius: 50rem;width:7.76%;height:3.72%;top: 6%; }
+body>div.pobing>div#vsright>div#dian>img{position:absolute;width:40%;top: 45%;left:28%;}
+body>div.pobing>div#vsleft>div>p.lptittle{font-weight: bold;font-size: 0.75rem;}
+body>div.pobing>div#vsleft>div>p.content{font-size: 0.7rem;}
+body>div.pobing>div#vsright{position: absolute;width:28.18%;height: 59.85%;left:53.15%;top:45%;background-color: RGB(31, 52, 182);border-radius: 0rem 0rem 1rem 1rem;}
+
+
+
+

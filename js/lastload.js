@@ -1,6 +1,7 @@
 let pointFather = document.getElementById('point');
 let ppFlag = 0;          //痛点选中标志
 let understandFlag = -1;  //了解详情标志
+let talkFlag = 1;
 let pp1 = document.getElementsByClassName('pp1')[0];
 let pp2 = document.getElementsByClassName('pp2')[0];
 let pp11 = document.getElementById('pp11');
@@ -8,13 +9,24 @@ let pp12 = document.getElementById('pp12');
 let pointList = pointFather.children;
 let i = pointList.length;
 let understandButtom = document.getElementsByClassName('pain_div_buttom');
-let run;
+let talk1List = document.getElementById('talk1').children;
+let talk2List = document.getElementById('talk2').children;
+let talk1 = document.getElementById('talk1');
+let talk2 = document.getElementById('talk2');
+let talkLength = talk1List.length;
 let index = 0;
+
 function addEvent() {
+    talk1.addEventListener('click',switchTalk);
+    talk2.addEventListener('click',switchTalk);
     pp11.addEventListener('click',ppfunction);
     pp12.addEventListener('click',ppfunction);
-    for (let k=0;k<3;k++){
-        understandButtom[k].addEventListener('click',unbuttomFunction);
+    for (let j=0;j<talkLength;j++){
+        talk1List[j].addEventListener('click',switchTalk);
+        talk2List[j].addEventListener('click',switchTalk);
+    }
+    for (let j=0;j<3;j++){
+        understandButtom[j].addEventListener('click',unbuttomFunction);
     }
     for(let j=0;j<i;j++){
         pointList[j].addEventListener('click',dot);}
@@ -131,4 +143,38 @@ function dot(e){
         myRun();
     }
 }
-
+//对话框选中函数
+function switchTalk(e){
+    let ful = document.getElementById('frontul');
+    let bul = document.getElementById('backul');
+    let fp = document.getElementById('frontp');
+    let bp = document.getElementById('backp')
+    let event = e.target;
+    let ev = Number(event.getAttribute('id')[4]);
+    if(talkFlag==1&&ev==2){
+        fp.style='display:none';
+        bp.style='display:block';
+        ful.style='display:none';
+        bul.style='display:block';
+        talk1.style.backgroundColor='rgb(230,230,230)';
+        talk2.style.backgroundColor='rgb(16,23,81)';
+        talk1List[0].style='color:rgb(16,23,81);';
+        talk1List[1].src='./img/黑箭头.png';
+        talk2List[0].style='color:white;';
+        talk2List[1].src='./img/白箭头.png';
+        talkFlag=2;
+    }
+    else if(talkFlag==2&&ev==1){
+        bp.style='display:none';
+        fp.style='display:block';
+        ful.style='display:block';
+        bul.style='display:none';
+        talk2.style.backgroundColor='rgb(230,230,230)';
+        talk1.style.backgroundColor='rgb(16,23,81)';
+        talk2List[0].style='color:rgb(16,23,81);';
+        talk2List[1].src='./img/黑箭头.png';
+        talk1List[0].style='color:white;';
+        talk1List[1].src='./img/白箭头.png';
+        talkFlag=1;
+    }
+}
