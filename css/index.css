@@ -70,15 +70,23 @@ body>div.main>div.kuang>div>div.center_down>p#down2{position: absolute;width:78%
 body>div.main>div.kuang>div>div.side_down>p#down3{position: absolute;width:80%;font-size: 0.7rem;color: white;left:13%;top: 17%;}
 body>div.main>div.kuang>div.center_div>div#delta21{position:absolute;width: 5%;height: 5%;font-size: 1rem;left: 95%;}
 body>div.main>div.kuang>div.side_div>div.delta31{position:absolute;width: 5%;height: 5%;font-size: 1rem;left: 95%;}
-
-
-
 body>div.main>div.kuang>div#side_div1{left:2.87%;}
 body>div.main>div.kuang>div#center_div1{left:35.5%;}
 body>div.main>div.kuang>div#side_div2{left:67.83%;}
-
 body>div.main>div.kuang>div#costs{left: 2.87%;}
 body>div.main>div.kuang>div#risky{left: 35.5%;}
 body>div.main>div.kuang>div#rate{left: 67.83%;}
-
-
+body>div.pobing{position: relative;width:100%;padding-bottom: 101.56%;}
+body>div.pobing>img#biaoti1{position: absolute;top:3%;left:34%;width:32%;}
+body>div.pobing>p#pobz{position: absolute;top:3%;left: 39%;font-size: 1.5rem;font-weight: bold;color: RGB(14, 7, 72);}
+body>div.pobing>p#moshi{position: absolute;top:5.5%;left: 42.5%;font-size: 1.5rem;font-weight: bold;color: RGB(14, 7, 72);}
+body>div.pobing>img#duobianxing{position: absolute;left: 76.5%;top: 5%;}
+body>div.pobing>div.talk_pain{position: absolute;width: 62.5%;height:23.85%;left: 18.75%;top:10.77%;}
+body>div.pobing>div.talk_pain>div#talk{position: absolute;width:46.58%;height: 100%;background-color: white;border-radius: 10px 0px 0px 10px;box-shadow:1rem 0 1rem rgb(240,240,240);z-index: 1;border: 1px solid black;}/* 左上，右上，右下，左下*/
+body>div.pobing>div.talk_pain>div#pain{position: absolute;width:53.42%;height: 100%;background-color: RGB(18, 15, 78);z-index: 2;left:46.58%;}
+body>div.pobing>div.talk_pain>div#talk>p{position: absolute;width:75%;color:RGB(16,13,48);font-size: 0.9rem;border-bottom: 0.1rem solid RGB(18, 15, 78);font-weight: bold;left: 12.34%;top:9.87%;}
+body>div.pobing>div.talk_pain>div#talk>p#p2{width:69%;top: 17%;}
+body>div.pobing>div.talk_pain>div#talk>div{position: absolute;}
+body>div.pobing>div.talk_pain>div#talk>img{position: absolute;}
+body>div.pobing>div.talk_pain>div#talk>img#tou1{width: 8.59%;}
+body>div.pobing>div.talk_pain>div#talk>img#tou2{width: 8.59%;}
