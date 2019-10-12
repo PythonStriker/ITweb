@@ -5,7 +5,10 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/lastload.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/lastload.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/素材/素材/7_兄弟会-合作企业不一样的实力/背景1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/素材/素材/7_兄弟会-合作企业不一样的实力/背景2.png" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -67,6 +70,7 @@
       <workItem from="1569984164417" duration="20574000" />
       <workItem from="1570018787791" duration="32985000" />
       <workItem from="1570435176514" duration="92536000" />
+      <workItem from="1570670989486" duration="82461000" />
     </task>
     <servers />
   </component>
@@ -78,7 +82,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

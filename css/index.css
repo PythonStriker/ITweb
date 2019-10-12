@@ -1,5 +1,6 @@
-html,body {user-select: none;}
+html,body {min-width:2111px;user-select: none;}
 *{margin: 0;padding: 0;box-sizing: border-box; /*border: 1px solid red;*/}
+a{text-decoration:none;out-line: none;}
 body>div#canner{position: relative;width: 100%;background-color: rgb(43,43,43) ;padding-bottom:3.43%;}
 body>div#canner>img#logopicture{position: absolute;top:29.16%;width: 7.14%;height: 49.16%;left: 7%;}
 body>div#canner>div#chose{position: absolute;left: 53.6%;top: 27.08%;}
@@ -7,7 +8,9 @@ body>div#canner>div#chose>span>a{color: rgb(127,127,127);user-select: none;text-
 body>div#canner>div#chose>span>a#last{margin-right: 0px;}
 body>div#canner>div#chose>span>a:hover{color: #ffffff;}
 body>div#banner_div{position:relative;width: 100%;padding-bottom: 30%;}
-body>div#banner_div>img#banner_pic{position:absolute;width: 100%;height: 100%;}
+body>div#banner_div>img.banner{position:absolute;width: 100%;height: 100%;}
+body>div#banner_div>img#banner2{display: none;}
+body>div#banner_div>img#banner3{display: none;}
 body>div#banner_div>div#point{position:absolute;width: 8%;padding-bottom: 1.79%;border-radius:100px;left: 46%;top:90%;background-color: rgb(23,22,85);}
 body>div#banner_div>div#point>div#active{width: 30%;border-radius:20%;}
 body>div#banner_div>div#point>div.p0{position:absolute;background-color:rgb(220,220,229);width: 10%;height: 45.5%;border-radius:100%;top:30%;margin-left: 15%;
@@ -26,8 +29,11 @@ body>div#banner_div>div#point>div.p3{position:absolute;background-color:rgb(220,
     transition:width 500ms;
     -webkit-transition:width 500ms;
 }
-body>div.main{position
-:relative;width:100%;padding-bottom:52.6%;}
+body>div#banner_div>div.bannerdiv{top:45%;position:absolute;width: 10%;height: 40%;z-index: 10;}
+body>div#banner_div>div#bdiv0{left:25%;}
+body>div#banner_div>div#bdiv1{left:45%;}
+body>div#banner_div>div#bdiv2{left:65%;}
+body>div.main{position:relative;width:100%;padding-bottom:52.6%;}
 body>div.main>img#background1{position:absolute;width: 100%;z-index: 2;}
 body>div.main>img#background2{position:absolute;width: 100%;z-index: 1;margin-top: 1%;}
 body>div.main>img#tp0{position: absolute;width:22.3%; z-index: 3;left:38.5%;top:7.5%;}
@@ -36,7 +42,7 @@ body>div.main>div.pp1{box-sizing:border-box;position:absolute;width:13%;height:6
 body>div.main>div.pp2{box-sizing:border-box;position:absolute;width:13%;height:6%;font-size: 1.125rem;line-height:2.7rem;z-index:3;top:18.8%;left:53.21%;;text-align: center;color:rgb(157,157,179);}
 body>div.main>div>div.biankuang{z-index:0;position: absolute;width: 100%;height:100%;border:0.1rem solid rgb(105,203,223);border-radius:0.2rem; }
 body>div.main>div#d_active{box-sizing:border-box;background-image: url('../img/kuang.png');background-repeat:no-repeat;color: white;background-size:100%;line-height:2.7rem;}
-body>div.main>div.kuang{position: absolute;width:62.5%;height: 58%;border:0.01rem solid rgb(41, 92, 134);z-index: 3;left: 18.3%;top:30%;}
+body>div.main>div.kuang{position: absolute;width:62.5%;height: 58%;border:0.1rem solid rgb(41, 92, 134);z-index: 3;left: 18.3%;top:30%;background-color: RGB(14, 7, 74);border-radius: 0.3rem;}
 body>div.main>div.kuang>p{position: absolute;top:3%;width:100%;left:2.87%;color: white;font-size: 1rem;}
 body>div.main>div.kuang>span{position: absolute;width:95%;left:2.87%;top:11%;color: white;font-size: 0.7rem;}
 body>div.main>div.kuang>div.pain_div{position:absolute;float:left;background-color: white;width:28.75%;height:63.79%;top:27.58%;}
@@ -117,12 +123,114 @@ body>div.pobing>div#vsleft>div.ji{width:85.4%;margin-left:6.84%;}
 body>div.pobing>div#vsleft>div.ou{width:85.4%;background-color:RGB(248, 248, 248);margin-left:6.84%;}
 body>div.pobing>div#vsleft>div#ji1{width:85.4%;margin-left:6.84%;margin-top: 11%;}
 body>div.pobing>div#vsleft>div#ltittle{position: absolute;top:3%;font-weight:bold;font-size: 1rem;text-align: center;width:100%;color: RGB(16, 13, 50);}
-body>div.pobing>div#vsright>div#rtittle{line-height: 4rem;font-weight:bold;font-size: 1rem;height: 7.8%;width: 100%;background-color: RGB(44, 100, 219);color: white;text-align: center;}
-body>div.pobing>div#vsright>div#dian{position: absolute;left:46%;background-color: RGB(44, 100, 219);border-radius: 50rem;width:7.76%;height:3.72%;top: 6%; }
-body>div.pobing>div#vsright>div#dian>img{position:absolute;width:40%;top: 45%;left:28%;}
 body>div.pobing>div#vsleft>div>p.lptittle{font-weight: bold;font-size: 0.75rem;}
 body>div.pobing>div#vsleft>div>p.content{font-size: 0.7rem;}
 body>div.pobing>div#vsright{position: absolute;width:28.18%;height: 59.85%;left:53.15%;top:45%;background-color: RGB(31, 52, 182);border-radius: 0rem 0rem 1rem 1rem;}
+body>div.pobing>div#vsright>div#rtittle{line-height: 4rem;font-weight:bold;font-size: 1rem;height: 7.8%;width: 100%;background-color: RGB(44, 100, 219);color: white;text-align: center;}
+body>div.pobing>div#vsright>div#dian{position: absolute;left:46%;background-color: RGB(44, 100, 219);border-radius: 50rem;width:7.76%;height:3.72%;top: 6%; }
+body>div.pobing>div#vsright>div#dian>img{position:absolute;width:40%;top: 45%;left:28%;}
+body>div.pobing>div#vsright>div.rcontent{position:relative;width:85.4%;margin-left:6.84%;margin-top: 1%;}
+body>div.pobing>div#vsright>div#rcontent1{margin-top: 6%;}
+body>div.pobing>div#vsright>div.rcontent>p.rpnum{line-height:1.1rem;font-size:0.8rem;width: 5.39%;background-color: black;color:white;text-align: center;}
+body>div.pobing>div#vsright>div.rcontent>p.rptitlle{font-size:0.8rem;position:absolute;left: 6.5%;top: -1.5%;background-color: black;color:white;}
+body>div.pobing>div#vsright>div.rcontent>p.rpcontent{font-size:0.7rem;color: white;}
+body>div.jiaofu{position: relative;width: 100%;padding-bottom: 67.19%;}
+body>div.jiaofu>div.lbbuttom{position: absolute;line-height: 3.2rem;font-size:1rem;height: 74px;text-align: center;background-repeat:no-repeat;color: white;background-size:100%;width: 11.92%;background-image: url("../img/Currency/按钮背景.png");}
+body>div.jiaofu>div#lj1{left:36%;top:12%;}
+body>div.jiaofu>div#bm1{left: 52.09%;top: 12%;}
+body>div.jiaofu>p#zhenshi{position: absolute;top:25%;left: 39%;font-size: 1.5rem;font-weight: bold;color: RGB(14, 7, 72);z-index: 2}
+body>div.jiaofu>p#nengli{position: absolute;top:29%;left: 42%;font-size: 1.5rem;font-weight: bold;color: RGB(14, 7, 72);z-index: 2}
+body>div.jiaofu>img#biaoti3{position: absolute;top:25%;left:34.5%;width:29%;z-index: 1;}
+body>div.jiaofu>img#bolang1{position: absolute;top:20%;z-index: -1;width: 100%;height: 85%;}
+body>div.jiaofu>img#jiantou{position: absolute;top: 32%;z-index: 2;left: 24%;width: 38.54%;}
+body>div.jiaofu>div.level{margin-left:2%;width:10.68%;float: left;z-index: 4;margin-top: 30%;}
+body>div.jiaofu>div#level1{margin-left: 18.75%;}
+body>div.jiaofu>div#level2{margin-top: 28%;}
+body>div.jiaofu>div#level3{margin-top: 26%;}
+body>div.jiaofu>div#level4{margin-top: 24%;}
+body>div.jiaofu>div#level5{margin-top: 22%;}
+body>div.jiaofu>div.level>img{margin-top:72%;}
+body>div.jiaofu>div.level>div.quancontent{ width:100%;background-color: white;}
+body>div.jiaofu>div.level>div.quan{position:absolute;height:12%;width: 8%;border: 0.1rem solid RGB(83, 211, 205);border-radius: 5rem;margin-left:1%;margin-right: 2%;}
+body>div.jiaofu>div.level>img.quanyy{float: left ;margin-left: 18%;margin-right: 20%;}
+body>div.jiaofu>div.level>div.quan>img{margin-top: 25%;margin-left: 10%;width: 70%;}
+body>div.jiaofu>div.level>div.quant>p{margin-bottom: 5%;margin-left:5%;font-weight:bold;width: 90%;text-align: center;font-size: 0.8rem;}
+body>div.jiaofu>div.level>div.quancontent>p{margin-left: 10%;width: 80%;font-size: 0.7rem;}
+body>div.jiaofu>div.level>div.quancontent>p.quanpt{font-weight: bold;}
+body>div.jiaofu>div.level>div.quancontent>p.quanc{margin-bottom: 5%;}
+body>div.jiaofu>div#lj2{z-index: 4;top: 85%;left: 36%;}
+body>div.jiaofu>div#bm2{z-index: 4;top: 85%;left: 52.09%;}
+body>div.kuai{position: relative;width: 100%;padding-bottom: 45.83%;}
+body>div.kuai>img#bgimg{position: absolute;width: 100%;height: 108%;top: -8%;z-index: 0;}
+body>div.kuai>p#guantong{position: absolute;z-index: 2;color: RGB(89, 222, 227);font-size: 1.5rem;font-weight: bold;top: 5%;left: 37.57%}
+body>div.kuai>img#biaoti4{position: absolute;z-index: 1;top:4.3%;left: 32.3%;width:35%; }
+body>div.kuai>div.tu{position:absolute;width: 19.48%;height:30.8%;z-index: 4;}
+body>div.kuai>div.tu:hover{background-color: RGB(25, 17, 89);}
+body>div.kuai>div#tu1{left: 20.14%;top: 20.16%;}
+body>div.kuai>div#tu2{left: 40.14%;top: 20.16%;}
+body>div.kuai>div#tu3{left: 60.14%;top: 20.16%;}
+body>div.kuai>div#tu4{left: 20.14%;top: 55.16%;}
+body>div.kuai>div#tu5{left: 40.14%;top: 55.16%;}
+body>div.kuai>div#tu6{left: 60.14%;top: 55.16%;}
+body>div.kuai>div.tu>img{margin-left: 27%;margin-top: 7%;}
+body>div.kuai>div.lbbuttom{position: absolute;line-height: 3.2rem;font-size:1rem;height: 74px;text-align: center;background-repeat:no-repeat;color: white;background-size:100%;width: 11.92%;background-image: url("../img/Currency/按钮背景.png");}
+body>div.kuai>div#lj3{left:36%;top:92.59%;z-index: 4;}
+body>div.kuai>div#bm3{left: 52.09%;top:92.59%;z-index: 4;}
+body>div.konw{position: relative;width: 100%;padding-bottom: 41.67%;}
+body>div.konw>*{position: absolute;}
+body>div.konw>img#bgimg1{width: 100%;height: 100%;z-index: 0;}
+body>div.konw>img#biaoti5{z-index: 1;top: 9%;left: 38.2%;width: 25%;height: 7%;}
+body>div.konw>p#zhidao{z-index: 2;color: RGB(89, 222, 227);font-size: 1.7rem;font-weight: bold;top: 9%;left: 44%}
+body>div.konw>div.daohang{margin-top: 8.2%;float: left;width: 19.79%;margin-left: 18.75%;z-index: 3;height: 50%;}
+body>div.konw>div.daohang>div.daohangdiv{margin-top: 10%;font-size:0.87rem;width: 100%;height: 18%;border: 0.1rem solid RGB(82, 210, 204);border-radius: 0.5rem}
+body>div.konw>div.daohang>div#dao_active{width: 120%;background-color: #52d2cc;}
+body>div.konw>div.kuangco{float: left;width: 38.13%;margin-left: 45%;z-index: 3;height: 50%;margin-top: 10%;border: 1px solid RGB(82, 210, 204);border-radius: 0.2rem}
+body>div.konw>img#diguang{left: 45%;top:73.2%;width: 38%;}
+body>div.konw>div.daohang>div.daohangdiv>p{float: left;font-size: 1rem;color: RGB(82, 210, 204);}
+body>div.konw>div.daohang>div.daohangdiv>img{width:10%;float:left;margin-top:-3%;margin-left: 86%;}
+body>div.konw>div.daohang>div.daohangdiv>p.biao{font-weight:bold;margin-top: 3%;line-height: 2rem;text-align:center;width:10%;height:60%;color:RGB(13, 7, 70);margin-left: 10%;border-radius: 5rem;background-color:  RGB(82, 210, 204);}
+body>div.konw>div.daohang>div.daohangdiv>p#huobiao{margin-left: 15%;margin-top: 3%;width: 9%;background-color: white;color:RGB(82, 210, 204);}
+body>div.konw>div.daohang>div.daohangdiv>p.biaop{line-height: 2rem;margin-left: 2%;margin-top: 3%;}
+body>div.konw>div.daohang>div.daohangdiv>p#huobiaop{color: white}
+body>div.konw>div.kuangco>ul#kuangco1{width:90%;margin-left: 5%;margin-top: 5%;}
+body>div.konw>div.kuangco>ul#kuangco1>li{font-size: 0.9rem;color: white;line-height: 1.5rem;margin-top: 5%;}
+body>div.konw>div.kuangco>div#kuangco2>div#kuang2{}
+body>div.konw>div.kuangco>div#kuangco2>div>span{margin-top:5%;margin-left:5%;line-height:2rem;font-size:0.9rem;float: left;color: white}
+body>div.konw>div.kuangco>div#kuangco2>div>p{margin-top: 5%;line-height:2rem;font-size:0.9rem;width:75%;float: left;color: white;}
+body>div.konw>div.kuangco>ul#kuangco3{width:90%;margin-left: 5%;margin-top: 5%;}
+body>div.konw>div.kuangco>ul#kuangco3>li{font-size: 0.9rem;color: white;line-height: 1.5rem;margin-top: 5%;}
+body>div.konw>div.kuangco>div#kuangco4{width: 90%;margin-left: 5%;}
+body>div.konw>div.kuangco>div#kuangco4>*{font-size: 0.9rem;color: white;}
+body>div.konw>div.kuangco>div#kuangco4>div{margin-top: 3%;}
+body>div.konw>div.kuangco>div#kuangco4>div>p.id{font-weight: bold;}
+body>div.konw>div.lbbuttom{position: absolute;line-height: 3.2rem;font-size:1rem;height: 74px;text-align: center;background-repeat:no-repeat;color: white;background-size:100%;width: 11.92%;background-image: url("../img/Currency/按钮背景.png");}
+body>div.konw>div#lj4{left:36%;top:88.59%;z-index: 4;}
+body>div.konw>div#bm4{left: 52.09%;top:88.59%;z-index: 4;}
+body>div.hezuo{position:relative;width: 100%;padding-bottom: 31.78%;}
+body>div.hezuo>*{position: absolute;}
+body>div.hezuo>img#bgimg2{width:100%;height: 120%;z-index: 0;}
+body>div.hezuo>img#bgimg3{width:100%;height: 300%;top:-130%;z-index: 1;}
+body>div.hezuo>p#qiye{font-size: 1.7rem;color:RGB(101, 253, 250);z-index: 3;font-weight: bold;left: 41.77%;top: 10%;}
+body>div.hezuo>p#shili{font-size: 1.7rem;color:RGB(101, 253, 250) ;z-index: 3;font-weight: bold;left: 43.77%;top: 19%;}
+body>div.hezuo>img#biaoti6{width: 27%;left: 36%;top: 10%;z-index: 2;}
+body>div.hezuo>div.cl{top:50%;width: 9.53%; z-index: 99;}
+body>div.hezuo>div.cl>img{;float: left;margin-bottom: 7%;width: 100%;}
+body>div.hezuo>div#cl1{left: 18.75%;}
+body>div.hezuo>div#cl2{left: 28.75%;}
+body>div.hezuo>div#cl3{left: 38.75%;}
+body>div.hezuo>div#cl4{left: 48.75%;}
+body>div.hezuo>div#cl5{left: 58.75%;}
+body>div.hezuo>div#cl6{left: 68.75%;}
+body>div.hezuo>p#buquan{left: 45%;top: 98%;color:rgb(146, 146, 146);font-size: 12px;}
+body>div.hezuo>img#tu{width: 100%;top: 120%;z-index: 7;}
+body>div.hezuo>img#footer{width: 100%;top: 139%;z-index: 7;}
+body>div.hezuo>div.di{top: 147%;z-index: 99;}
+body>div.hezuo>div.di>p.dit{font-size: 20px;color: white;margin-bottom: 24px;}
+body>div.hezuo>div.di>p{font-size: 12px;margin-bottom: 5px;color:RGB(128, 131, 134);}
+body>div.hezuo>div#d1{left: 35%;}
+body>div.hezuo>div#d2{left: 41%;}
+body>div.hezuo>div#d3{left: 47%;}
+body>div.hezuo>div#d4{left: 54%;}
 
 
 
