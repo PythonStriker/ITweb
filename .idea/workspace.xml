@@ -3,14 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a0d4cf19-a107-41c2-a63d-52f007551195" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Banner/banner.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Banner/兄弟会专题页 (1).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Banner/兄弟会专题页 (3).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/Banner/兄弟会专题页 (4).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/lastload.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/lastload.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -76,6 +68,8 @@
       <workItem from="1570851052619" duration="5790000" />
       <workItem from="1570882676665" duration="13453000" />
       <workItem from="1570935370203" duration="188000" />
+      <workItem from="1570935645217" duration="71000" />
+      <workItem from="1570947285831" duration="606000" />
     </task>
     <servers />
   </component>
