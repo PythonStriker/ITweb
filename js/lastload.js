@@ -273,5 +273,4 @@ function daoFunction(e) {
         eventList[1].setAttribute('id','huobiaop');
         eventList[2].style='display:block';
     }
-
 }

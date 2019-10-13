@@ -4,11 +4,13 @@
     <list default="true" id="a0d4cf19-a107-41c2-a63d-52f007551195" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Banner/banner.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Banner/兄弟会专题页 (1).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Banner/兄弟会专题页 (3).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/Banner/兄弟会专题页 (4).png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/lastload.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/lastload.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/素材/素材/7_兄弟会-合作企业不一样的实力/背景1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/素材/素材/7_兄弟会-合作企业不一样的实力/背景2.png" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -71,6 +73,9 @@
       <workItem from="1570018787791" duration="32985000" />
       <workItem from="1570435176514" duration="92536000" />
       <workItem from="1570670989486" duration="82461000" />
+      <workItem from="1570851052619" duration="5790000" />
+      <workItem from="1570882676665" duration="13453000" />
+      <workItem from="1570935370203" duration="188000" />
     </task>
     <servers />
   </component>

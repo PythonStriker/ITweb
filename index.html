@@ -22,9 +22,9 @@
     <div class="bannerdiv" id="bdiv0" ></div>
     <div class="bannerdiv" id="bdiv1" ></div>
     <div class="bannerdiv" id="bdiv2" ></div>
-    <img class="banner" id="banner1" src="./img/Banner/兄弟会专题页 (4).png">
-    <img class="banner" id="banner2" src="./img/Banner/兄弟会专题页 (1).png">
-    <img class="banner" id="banner3" src="./img/Banner/兄弟会专题页 (3).png">
+    <img class="banner" id="banner1" src="./img/Banner/22.png">
+    <img class="banner" id="banner2" src="./img/Banner/21.png">
+    <img class="banner" id="banner3" src="./img/Banner/23.png">
     <div id="point">
         <div class="p0" id="active"></div>
         <div class="p1"></div>
@@ -148,8 +148,8 @@
                     兵呢？我们谨记“无兄弟不编程”，终有一天各自找到理想的工作并在IT圈内保持很好的联系。</li>
                 <li>兄弟会的学员是有真实项目经验的，我们是“产学共建”模式，企业的真实项目或产品由我们的学员来完成，这种真实体验和感受不是模拟训练题能比得上的。</li>
             </ul>
-            <a><div id="ljtd">了解更多，一键为您解决学习痛点</div></a>
-                <a><div id="lkbm">立刻报名，一键为您解决学习痛点</div></a>
+            <div id="ljtd" onclick="baoming()">了解更多，一键为您解决学习痛点</div>
+                <div id="lkbm" onclick="baoming()">立刻报名，一键为您解决学习痛点</div>
         </div>
     </div>
     <img id="bolang" src="./img/波浪1.png">
@@ -261,8 +261,8 @@
     </div>
 </div>
 <div class="jiaofu">
-    <div class="lbbuttom" id="lj1"><a>了解更多</a></div>
-    <div class="lbbuttom" id="bm1"><a>我要报名</a></div>
+    <div class="lbbuttom" id="lj1" onclick="baoming()">了解更多</div>
+    <div class="lbbuttom" id="bm1"onclick="baoming()">我要报名</div>
     <img id="biaoti3" src="./img/Currency/标题背景-蓝色.png">
     <p id="zhenshi">“兄弟会” — 培养具备真实</p>
     <p id="nengli">交付能力的程序员</p>
@@ -338,21 +338,21 @@
             <p class="quanc" id="qact5">理解编程逻辑，为后面做准备。</p>
         </div>
     </div>
-    <div class="lbbuttom" id="lj2"><a>了解更多</a></div>
-    <div class="lbbuttom" id="bm2"><a>我要报名</a></div>
+    <div class="lbbuttom" onclick="baoming()" id="lj2"><a>了解更多</a></div>
+    <div class="lbbuttom" onclick="baoming()" id="bm2"><a>我要报名</a></div>
 </div>
 <div class="kuai">
     <img id="bgimg" src="./img/背景.png">
     <p id="guantong">“兄弟会” 六大语言学科融会贯通</p>
     <img id="biaoti4" src="./img/Currency/标题背景-绿色.png">
-    <div class="tu"  id="tu1"><img src="./img/php.png"></div>
-    <div class="tu"  id="tu2"><img src="./img/java.png"></div>
-    <div class="tu"  id="tu3"><img src="./img/前端.png"></div>
-    <div class="tu"  id="tu4"><img src="./img/python.png"></div>
-    <div class="tu"  id="tu5"><img src="./img/大数据.png"></div>
-    <div class="tu"  id="tu6"><img src="./img/Linux.png"></div>
-    <div class="lbbuttom" id="lj3"><a>了解更多</a></div>
-    <div class="lbbuttom" id="bm3"><a>我要报名</a></div>
+    <div class="tu"  id="tu1" onclick="php()"><img src="./img/php.png"></div>
+    <div class="tu"  id="tu2" onclick="java()"><img src="./img/java.png"></div>
+    <div class="tu"  id="tu3" onclick="qianduan()"><img src="./img/前端.png"></div>
+    <div class="tu"  id="tu4" onclick="python()"><img src="./img/python.png"></div>
+    <div class="tu"  id="tu5" onclick="dashuju()"><img src="./img/大数据.png"></div>
+    <div class="tu"  id="tu6" onclick="linux()"><img src="./img/Linux.png"></div>
+    <div class="lbbuttom" onclick="baoming()" id="lj3">了解更多</div>
+    <div class="lbbuttom" onclick="baoming()" id="bm3">我要报名</div>
 </div>
 <div class="konw">
     <p id="zhidao">你应该知道的事</p>
@@ -406,8 +406,8 @@
         </div>
     </div>
         <img id="diguang" src="./img/矩形%20890.png">
-    <div class="lbbuttom" id="lj4"><a>了解更多</a></div>
-    <div class="lbbuttom" id="bm4"><a>我要报名</a></div>
+    <div class="lbbuttom" onclick="baoming()" id="lj4">了解更多</div>
+    <div class="lbbuttom" onclick="baoming()" id="bm4">我要报名</div>
 </div>
 <div class="hezuo">
     <p id="qiye">“兄弟会” 合作企业</p>
@@ -446,38 +446,51 @@
         <img src="./img/time(1).png">
     </div>
     <p id="buquan">(仅展示部分合作企业/机构)</p>
-    <img id="tu" src="./img/图层%20999.png">
+    <img  id="tu" onclick="baoming()" src="./img/图层%20999.png">
     <img  id="footer" src="./img/组%2022.png">
 
     <div class="di" id="d1">
         <p class="dit">兄弟会</p>
-        <p><a>兄弟会概况</a></p>
-        <p><a>企业合作</a></p>
-        <p><a>联系我们</a></p>
+        <p><a href="">兄弟会概况</a></p>
+        <p><a href="">企业合作</a></p>
+        <p><a href="">联系我们</a></p>
     </div>
     <div class="di" id="d2">
         <p class="dit">学习资料</p>
-        <p><a>免费公开课</a></p>
-        <p><a>免费视频下载</a></p>
-        <p><a>学习路线图</a></p>
-        <p><a>学习工具</a></p>
+        <p><a href="">免费公开课</a></p>
+        <p><a href="">免费视频下载</a></p>
+        <p><a href="">学习路线图</a></p>
+        <p><a href="">学习工具</a></p>
     </div>
     <div class="di" id="d3">
         <p class="dit">兄弟会优势</p>
-        <p><a>学习模式</a></p>
-        <p><a>培养体系</a></p>
-        <p><a>教官团队</a></p>
-        <p><a>项目采访</a></p>
-        <p><a>高薪就业</a></p>
+        <p><a href="">学习模式</a></p>
+        <p><a href="">培养体系</a></p>
+        <p><a href="">教官团队</a></p>
+        <p><a href="">项目采访</a></p>
+        <p><a href="">高薪就业</a></p>
     </div>
     <div class="di" id="d4">
         <p class="dit">如何报名</p>
-        <p><a>报名须知</a></p>
-        <p><a>报名流程</a></p>
-        <p><a>常见问题</a></p>
-        <p><a>校区合作</a></p>
-        <p><a>住宿安排</a></p>
+        <p><a href="">报名须知</a></p>
+        <p><a href="">报名流程</a></p>
+        <p><a href="">常见问题</a></p>
+        <p><a href="">校区合作</a></p>
+        <p><a href="">住宿安排</a></p>
     </div>
+</div>
+<div class="footer">
+    <div id="zuo">
+        <img src="./img/Currency/logo.png">
+        <p id="dianhua">400-700-1307</p>
+        <p id="mianfei">(全国免费额咨询热线)</p>
+    </div>
+    <div id="you">
+        <img id="wimg" src="./img/Currency/微博.png">
+        <img id="ximg" src="./img/Currency/微信.png">
+    </div>
+    <p id="weibo">官方微博</p>
+    <p id="weixin">官方微信</p>
 </div>
 </body>
     <script src="./js/lastload.js"></script>

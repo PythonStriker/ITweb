@@ -1,6 +1,5 @@
-html,body {min-width:2111px;user-select: none;}
+html,body {min-width:1690px;user-select: none;}
 *{margin: 0;padding: 0;box-sizing: border-box; /*border: 1px solid red;*/}
-a{text-decoration:none;out-line: none;}
 body>div#canner{position: relative;width: 100%;background-color: rgb(43,43,43) ;padding-bottom:3.43%;}
 body>div#canner>img#logopicture{position: absolute;top:29.16%;width: 7.14%;height: 49.16%;left: 7%;}
 body>div#canner>div#chose{position: absolute;left: 53.6%;top: 27.08%;}
@@ -106,10 +105,10 @@ body>div.pobing>div.talk_pain>div#pain{position: absolute;width:53.42%;height: 1
 body>div.pobing>div.talk_pain>div#pain>p{position:absolute;color: RGB(125, 125, 127);font-size: 1rem;top:9.22%;left: 11.35%;}
 body>div.pobing>div.talk_pain>div#pain>ul{float:left;z-index: 4;width: 83%;list-style-type: disc;margin-left: 11.35%;margin-top:13%; }
 body>div.pobing>div.talk_pain>div#pain>ul>li{color: white;font-size: 0.5rem;line-height: 1rem;}
-body>div.pobing>div.talk_pain>div#pain>a>div#ljtd{position: absolute;top:75%;left:11.35%;width: 49.77%;height: 7.51%;text-align: center;border: 0.1rem solid RGB(83, 211, 205);border-radius: 5rem;color: RGB(83, 211, 205);font-size: 0.625rem;line-height: 1.5rem;}
-body>div.pobing>div.talk_pain>div#pain>a>div#lkbm{position: absolute;top:85%;left:11.35%;width: 49.77%;height: 7.51%;text-align: center;border: 0.1rem solid RGB(83, 211, 205);border-radius: 5rem;color: RGB(83, 211, 205);font-size: 0.625rem;line-height: 1.5rem;}
-body>div.pobing>div.talk_pain>div#pain>a>div#ljtd:hover{background-color: RGB(83, 211, 205);color: white;}
-body>div.pobing>div.talk_pain>div#pain>a>div#lkbm:hover{background-color: RGB(83, 211, 205);color: white;}
+body>div.pobing>div.talk_pain>div#pain>div#ljtd{position: absolute;top:75%;left:11.35%;width: 49.77%;height: 7.51%;text-align: center;border: 0.1rem solid RGB(83, 211, 205);border-radius: 5rem;color: RGB(83, 211, 205);font-size: 0.625rem;line-height: 1.5rem;}
+body>div.pobing>div.talk_pain>div#pain>div#lkbm{position: absolute;top:85%;left:11.35%;width: 49.77%;height: 7.51%;text-align: center;border: 0.1rem solid RGB(83, 211, 205);border-radius: 5rem;color: RGB(83, 211, 205);font-size: 0.625rem;line-height: 1.5rem;}
+body>div.pobing>div.talk_pain>div#pain>div#ljtd:hover{background-color: RGB(83, 211, 205);color: white;}
+body>div.pobing>div.talk_pain>div#pain>div#lkbm:hover{background-color: RGB(83, 211, 205);color: white;}
 body>div.pobing>img#bolang{position:absolute;width: 100%;top:23.5%;}
 body>div.pobing>p#fuwu{position: absolute;top:38%;left: 39%;font-size: 1.5rem;font-weight: bold;color: RGB(14, 7, 72);}
 body>div.pobing>p#duibi{position: absolute;top:40.5%;left: 47%;font-size: 1.5rem;font-weight: bold;color: RGB(14, 7, 72);}
@@ -231,6 +230,19 @@ body>div.hezuo>div#d1{left: 35%;}
 body>div.hezuo>div#d2{left: 41%;}
 body>div.hezuo>div#d3{left: 47%;}
 body>div.hezuo>div#d4{left: 54%;}
+body>div.hezuo>div.di>p>a{text-decoration:none;color:RGB(128, 131, 134)}
+body>div.footer{position:relative;background-color: RGB(54, 61, 64);width:100%;padding-bottom:  13.44%;margin-top: 12.4%;z-index:20;}
+body>div.footer>div#zuo{margin-left: 21%;margin-top: 5%;width: 11.49%;height:60%;float: left;border-right: 0.1rem solid RGB(128, 131, 134);}
+body>div.footer>div#zuo>img{margin-left: 3%;width: 70%;margin-top: 10%;}
+body>div.footer>div#zuo>p#dianhua{margin-left:20%;margin-top:2%;color: RGB(73, 183, 181);font-size: 16px;}
+body>div.footer>div#zuo>p#mianfei{margin-bottom:10%;margin-top:2%;margin-left:16%;color: RGB(125, 128, 129);font-size: 12px;}
+body>div.footer>div#you{margin-top: 4.5%;margin-left: 28%;float:left;width:20%;border-left: 0.1rem solid RGB(128, 131, 134);}
+body>div.footer>div#you>img{width: 30%;margin-top: 5%;}
+body>div.footer>div#you>img#wimg{margin-left: 18%;}
+body>div.footer>div#you>img#ximg{margin-left: 10%;}
+body>div.footer>p{position:absolute;margin-top:11.5%;color: white;font-size: 12px;}
+body>div.footer>p#weibo{left: 66%;}
+body>div.footer>p#weixin{left: 74%;}
 
 
 
